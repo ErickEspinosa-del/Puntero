@@ -4,7 +4,8 @@ int main () {
     int num=150, a;
     int *x; 
     x=&num; 
-    printf("%d %p\n", num, x);
+    a = *x;
+    printf("%d %d %p\n", num, a, x);
 
     float pi=3.1415, decimal;
     float *ptrF;
